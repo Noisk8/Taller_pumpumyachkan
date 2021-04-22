@@ -1,19 +1,21 @@
 # Taller_pumpumyachkan
 Taller de Livecoding con python y supercollider [FoxDot]
 
+![Conexiones](https://asimtria.org/pumpum/wp-content/uploads/sites/14/2021/03/cropped-bannerweb1.jpg)
+
 
                        
                                                                                                          
 
 ~~~
-Material de trabajo para el taller de Livecoding con python y supercollider [FoxDot] Toda la teoria del universo 2021
+Material de trabajo para el taller de Livecoding con python y supercollider [FoxDot] Festival Asimtria 16 PUMPUMYACHKAN 
 ~~~
 
 
 ## Sesión 1 
 
 
-### Palabras clave
+### Palabras clave e introducción al lievcoding 
 
 [Livecoding](https://toplap.org/about/) 
 
@@ -143,9 +145,7 @@ En esta linea tenemos algo como:  **bh**  es el objeto, **>>** designa que sinte
  ~~~
  
  Para ver más información sobre los atributos y efectos [Documentación](https://foxdot.org/docs/player-attributes/)
-
  
- ## Sesión 3 
  
  ### samples
  
