@@ -3,7 +3,6 @@
 
 ![Cabezote](https://asimtria.org/pumpum/wp-content/uploads/sites/14/2021/03/cropped-bannerweb1.jpg)
 
-![pajaro](https://asimtria.org/pumpum/wp-content/uploads/sites/14/2021/03/1web.jpg)
 
 
                        
