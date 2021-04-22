@@ -1,7 +1,9 @@
-# Taller_pumpumyachkan
-Taller de Livecoding con python y supercollider [FoxDot]
+#  Livecoding con python y supercollider [FoxDot]
 
-![Conexiones](https://asimtria.org/pumpum/wp-content/uploads/sites/14/2021/03/cropped-bannerweb1.jpg)
+
+![Cabezote](https://asimtria.org/pumpum/wp-content/uploads/sites/14/2021/03/cropped-bannerweb1.jpg)
+
+![pajaro](https://asimtria.org/pumpum/wp-content/uploads/sites/14/2021/03/1web.jpg)
 
 
                        
@@ -15,7 +17,7 @@ Material de trabajo para el taller de Livecoding con python y supercollider [Fox
 ## Sesión 1 
 
 
-### Palabras clave e introducción al lievcoding 
+### Introducción al lievcoding 
 
 [Livecoding](https://toplap.org/about/) 
 
@@ -39,11 +41,6 @@ Material de trabajo para el taller de Livecoding con python y supercollider [Fox
 [Guia oficial](https://foxdot.org/installation/)
 
 [Linux](https://github.com/Noisk8/InstalandoFoxDot-En-linux/blob/master/Debian-Ubuntu/foxdot.sh)
-
-[Windows]()
-
-[Mac]()
-
 
 
 
@@ -180,7 +177,7 @@ También podemos crear nuestros propios sample e implementarlos en nuestro códi
  
  
  
- ## Sesión 4
+ ## Sesión 3
  
  
  ### loops
@@ -208,10 +205,59 @@ En este ejemplo vemos un 3 este le indica apartir de que segundo arrancar y tamb
 
  
  
+ Los patrones son lo que en lenguaje de programación de denominaría array , es una secuencia de valores dentro de un []
  
+~~~
+ P[1,2,3,4,]
+~~~
+
+La pa es un ejeplo que podemos reemplazar por el nombre que quieras tipo como 
+
+~~~
+pumpum = [1,2,3,4,]
+~~~
+
+Los patrones pueden ser aplicados para multiples atributos, ***para usar un patron antes debes de declaralo copn ctrl + enter :) 
  
- 
- 
+
+ ~~~
+gt >> sawbass (pumpum, amp=pumopum, dur=pumpum )
+~~~
+
+Los patrones también tienen métodos específicos de transformación, como rotar, invertir y ordenar, que pueden utilizarse para manipular el orden:
+
+
+~~~
+>>> pumpum.rotate()
+P[1, 3, 2, 4]
+>>> pumpum.reverse()
+P[2, 3, 1, 4]
+>>> pumpum.sort()
+P[1, 2, 3, 4] 
+~~~
+
+
+un ejemplo puntual de esto sería...
+
+~~~
+ju >> dirt (dur=pumpum.rotate(), amp=pumpum.sort(), vib=pumpum.reverse())
+
+~~~
+
+Tambien se le podrían pasar varios patrones a un atributo de manera agrupada 
+
+
+supongamos que tenemos el patron anterion ***pumpum*** y vamos a crear otro llamado asimtria 
+
+~~~
+asimtria =[0,6,4,2]
+~~~
+
+~~~
+p1 >> pluck([(asimtria), (pumpum)], dur=4) 
+~~~
+
+
 
 
 
